@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    
+    
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="logo"><img src="Lamborghini-logo.png" alt="Lamborghini"></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contactenos.html">Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="header">
+        <h2>Formulario de contacto</h2>
+    </section>
+    
+    <div class="container">
+        <section class="contact1">
+            <form>
+                <div class="section-flex-form">
+                    <article class="element-form">
+                        <div class="label">
+                            <label for="">Tipo de mensaje</label>
+                        </div>
+                        <select name="tipomensaje" id="tipomensaje">
+                            <option value="-">Seleccione una opción</option>
+                            <option value="1">Cotizacion</option>
+                            <option value="2">Felicitaciones</option>
+                            <option value="3">Quejas</option>
+                        </select>
+                    </article>
+                    <article class="element-form">
+                        <div class="element-form">
+                            <div class="label">
+                                <label for="">Nombre</label>
+                            </div>
+                            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre y apellido">
+                        </div>
+                    </article>
+
+                    <article class="element-form">
+
+                        <div class="label">
+                            <label for="">Email</label>
+                        </div>
+                        <input type="text" name="email" id="email" placeholder="Escribe tu email">
+
+                    </article>
+
+                    <article class="element-form">
+
+                        <div class="label">
+                            <label for="">Comentario</label>
+                        </div>
+                        <textarea name="comentario" id="comentario" cols="60" rows="10"></textarea>
+
+                    </article>
+
+                    <article class="btn-article">
+                        <button type="submit" onclick="validar()"> Enviar Datos</button>
+                    </article>
+                </div>
+            </form>
+        </section>
+
+        <section class="contact2">
+            <div class="icons">
+                <p>
+                <a href="https://twitter.com/Lamborghini" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/lamborghini/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.facebook.com/Lamborghini/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UC9DXZC8BCDOW6pYAQKgozqw" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@lamborghini?lang=en" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </p>
+            </div>
+            
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Creado por David Steven Cuervo Rojas</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/75d1276702.js" crossorigin="anonymous"></script>
+    <script src="./JS/javascript.js"></script>
+</body>
+
+</html>
