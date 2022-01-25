@@ -1,14 +1,12 @@
-function validar(){
-    let nombre, tipomensaje, email, comentario
+
+function validar() {
+    
+let nombre, apellido, email, tipomensaje
 
     nombre = document.getElementById('nombre').value
-    tipomensaje = document.getElementById('tipomensaje').value
+    apellido = document.getElementById('apellido').value
     email = document.getElementById('email').value
-    comentario = document.getElementById('comentario').value
-    
+    tipomensaje = document.getElementById('tipomensaje').value
 
-    
-    alert(tipomensaje+" "+nombre+" "+email+" "+comentario)
+    alert("Buen dia "+ nombre +" "+ apellido +", gracias por tu mensaje de " + tipomensaje +". Te estaremos contactando a tu email " + email)
 }
-    
- 
